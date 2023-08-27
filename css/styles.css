@@ -157,8 +157,6 @@ img {
   font-weight: 500;
 }
 
-/* Header */
-
 .logo {
   color: var(--iris);
   font-family: "Raleway", sans-serif;
@@ -193,8 +191,6 @@ img {
   margin-right: 50px;
 }
 
-/* Checked */
-
 .studio {
   color: var(--navy-blue);
 }
@@ -222,8 +218,6 @@ img {
     color: var(--iris);
   }
 
-  /* Underline Current Page */
-
   .nav-menu-item {
     position: relative;
     transition-property: all;
@@ -244,7 +238,7 @@ img {
     background-color: var(--iris);
   }
 }
-/* SECTION */
+
 .section {
   padding: 96px 0px;
 
@@ -263,7 +257,6 @@ img {
   margin-bottom: 72px;
 }
 
-/* BENEFITS */
 .benefits {
   display: inline-flex;
   flex-direction: column;
@@ -347,8 +340,6 @@ img {
   }
 }
 
-/* HERO */
-
 .hero {
   width: 100%;
   text-align: center;
@@ -403,7 +394,6 @@ img {
   }
 }
 
-/* ORDER SERVICE */
 .button {
   font-family: inherit;
   border-color: transparent;
@@ -431,7 +421,6 @@ img {
   background-color: var(--ocean);
 }
 
-/* WHAT ARE WE DOING */
 .section.no-top-padding {
   padding: 0px;
   display: none;
@@ -451,7 +440,6 @@ img {
   }
 }
 
-/* TEAM */
 .team {
   display: flex;
   flex-wrap: wrap;
@@ -501,7 +489,6 @@ img {
   font-size: 20px;
 }
 
-/* TEAM - SOCIALS */
 .social-team {
   display: flex;
   justify-content: center;
@@ -608,32 +595,16 @@ img {
   color: var(--ocean);
 }
 
-/* PORTFOLIO */
 .projects {
   display: flex;
   flex-wrap: wrap;
   row-gap: 48px;
-
-  @media screen and (min-width: 768px) {
-    gap: 24px;
-  }
-
-  @media screen and (min-width: 1158px) {
-    flex-basis: calc(100% / 3 - 30px);
-  }
 }
 
 .projects-item {
   flex-basis: calc(100% / 1 - 30px);
 
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-  @media screen and (min-width: 768px) {
-    flex-basis: calc(100% / 2 - 24px);
-  }
-  @media screen and (min-width: 1158px) {
-    flex-basis: calc(100% / 3 - 30px);
-  }
 }
 
 .projects-item:hover,
@@ -665,7 +636,6 @@ img {
   border: 1px solid #eeeeee;
   border-top: 0;
 }
-/* Project-Card Hover Effect*/
 
 .project-hover {
   position: relative;
@@ -692,7 +662,7 @@ img {
   color: var(--cloud, #f4f4fd);
   letter-spacing: 0.32px;
 }
-/* PORTFOLIO BUTTONS */
+
 .filters {
   display: flex;
   flex-wrap: wrap;
@@ -700,14 +670,6 @@ img {
   column-gap: 16px;
   padding-bottom: 60px;
   padding-right: 40px;
-
-  @media screen and (min-width: 768px) {
-    justify-content: center;
-    padding-bottom: 64px;
-  }
-  @media screen and (min-width: 1158px) {
-    padding-bottom: 72px;
-  }
 }
 /* 
 .filters .space + .space {
@@ -723,10 +685,6 @@ img {
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.64px;
-
-  @media screen and (min-width: 768px) {
-    padding: 12px 24px;
-  }
 }
 
 .button.filter:hover,
@@ -738,7 +696,6 @@ img {
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
-/* FOOTER SECTION */
 .page-footer {
   background-color: var(--navy-blue);
   width: 100%;
@@ -997,7 +954,6 @@ img {
   padding-bottom: 16px;
   padding-top: 24px;
 }
-/* MODAL */
 
 .backdrop {
   position: fixed;
@@ -1090,10 +1046,10 @@ img {
 }
 
 .mobile-social-footer {
-  padding-top: 40px;
+  padding-top: 48px;
   display: flex;
-  width: 100%;
   justify-content: space-between;
+  gap: 46px;
 }
 
 .mobile-social-footer .link {
@@ -1117,7 +1073,6 @@ img {
   fill: currentColor;
 }
 
-/* Subscribe */
 .button.label {
   display: flex;
   align-items: center;
@@ -1141,16 +1096,12 @@ img {
   fill: currentColor;
 }
 
-/* Homework 6 Forms */
-
-/* Modal Section */
 .modal-content {
   margin-top: 72px;
   margin-left: 24px;
   margin-right: 24px;
 }
 
-/* FORM */
 .form-field {
   display: block;
   position: relative;
@@ -1186,7 +1137,6 @@ img {
   fill: var(--iris);
 }
 
-/* CHECKBOX */
 .checkmark {
   appearance: none;
 }
@@ -1288,13 +1238,11 @@ img {
   letter-spacing: 0.48px;
 }
 
-/* Hamburger Menu*/
 .mobile-menu-content {
   display: inline-flex;
   flex-direction: column;
-  justify-content: space-between;
-  height: 100%;
 }
+
 .mobile-container-footer {
   display: inline-flex;
   flex-direction: column;
@@ -1321,6 +1269,7 @@ img {
   color: var(--iris);
 }
 .mobile-item:not(:last-child) {
+  margin-bottom: 50px;
 }
 
 .mobile-contact:not(:last-child) {
