@@ -454,7 +454,7 @@ img {
 }
 
 .bg-team {
-  background: var(--white, #f4f4fd);
+  background: var(--cloud, #f4f4fd);
 }
 
 .team-item {
