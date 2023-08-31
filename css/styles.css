@@ -103,6 +103,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  /* position: relative; */
   /* margin-right: auto; */
 }
 @media screen and (min-width: 768px) {
@@ -138,6 +139,7 @@ img {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    /* width: 100%; */
   }
 
   .contacts-menu {
@@ -225,7 +227,6 @@ img {
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
 
-  /* Underline while Hovering Nav-Menu */
   .nav-menu-page:hover::after,
   .nav-menu-page.current::after {
     content: "";
@@ -519,18 +520,6 @@ img {
   fill: currentColor;
 }
 
-/* CUSTOMERS */
-/* .partner-container {
-  max-width: 428px;
-
-  @media screen and (min-width: 768px) {
-    max-width: 768px;
-  }
-
-  @media screen and (min-width: 1158px) {
-    width: 1158px;
-  }
-} */
 .partners {
   display: flex;
   flex-wrap: wrap;
@@ -1292,7 +1281,7 @@ img {
   font-weight: 500;
 }
 .hamburger-email:focus {
-  color: var(--iris-color);
+  color: var(--iris);
 }
 .mobile-menu-social-list {
   display: flex;
@@ -1305,7 +1294,7 @@ img {
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  background-color: var(--iris-color);
+  background-color: var(--iris);
   width: 40px;
   height: 40px;
   transition-property: background-color;
@@ -1318,12 +1307,12 @@ img {
 }
 
 .menu-toggle {
-  /* position: absolute; */
+  position: absolute;
   display: flex;
   align-items: center;
   justify-content: center;
-  /* top: 24px;
-  right: 24px; */
+  top: 24px;
+  right: 24px;
   /* width: 24px;
   height: 24px; */
   margin-left: auto;
@@ -1404,7 +1393,7 @@ img {
   position: relative;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: space-between;
   height: 100%;
   width: 100%;
   padding: 0;
