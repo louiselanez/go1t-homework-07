@@ -1241,6 +1241,7 @@ img {
 .mobile-menu-content {
   display: inline-flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 
 .mobile-container-footer {
