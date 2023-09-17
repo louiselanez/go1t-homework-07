@@ -200,6 +200,7 @@ img {
 .contact-menu {
   color: var(--slate);
   font-weight: 400;
+  font-size: 12px;
 }
 
 .page-header {
@@ -402,6 +403,7 @@ img {
   cursor: pointer;
   font-family: inherit;
   border-radius: 4px;
+  padding: 0;
 }
 
 .button.primary {
@@ -592,7 +594,7 @@ img {
 
 .projects-item {
   flex-basis: calc(100% / 1 - 30px);
-
+  flex-basis: unset;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -1251,6 +1253,7 @@ img {
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  padding: 0;
 }
 .hamburger-page:focus {
   color: var(--iris);
